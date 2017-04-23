@@ -8,6 +8,8 @@ module.exports = function (env) {
   return webpackMerge(commonConfig(env), {
   	devServer: {
 	    contentBase: path.resolve(__dirname, './devServer'),
+	    hot: true,
+	    inline: true
 	  }
   })
 }

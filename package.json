@@ -4,7 +4,7 @@
   "description": "React Router System",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --env=dev --progress --profile --colors --inline --hot",
+    "start": "webpack-dev-server --env=dev --progress --profile --colors",
     "build:dev": "webpack --env=dev --progress --profile --colors",
     "build:prod": "webpack --env=prod --progress --profile --colors"
   },
