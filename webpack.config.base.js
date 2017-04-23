@@ -14,7 +14,7 @@ module.exports = function (env) {
 		context: path.resolve(__dirname, './src'),
 		entry: './app/index',
 		output: {
-		  filename: 'WABAdm.nocache.js',
+		  filename: 'App.nocache.js',
 		  path: path.resolve(__dirname, './dist/js'),
 	    publicPath: 'js'
 		},
