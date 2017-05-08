@@ -30,9 +30,6 @@ module.exports = function (env) {
 	      template: './app/index.html'
 	    })
 	  ],
-	  resolveLoader: {
-	    moduleExtensions: ['-loader']
-	  },
     module: {
       loaders: [
         {
